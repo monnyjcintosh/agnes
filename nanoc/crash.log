@@ -1,0 +1,107 @@
+Crashlog created at 2016-01-27 23:34:42 +0000
+
+===== MESSAGE:
+
+Nanoc::Int::ItemRepRouter::IdenticalRoutesError: The item representations <Nanoc::Int::ItemRep name="default" binary=false raw_path="output/syllabuses/101/index.html" item.identifier="/syllabuses/101.html"> and <Nanoc::Int::ItemRep name="default" binary=false raw_path="" item.identifier="/syllabuses/101.md"> are both routed to /syllabuses/101/index.html.
+
+===== COMPILATION STACK:
+
+  (empty)
+
+===== STACK TRACE:
+
+  0. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_router.rb:34:in `route_rep'
+  1. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_router.rb:23:in `block (2 levels) in run'
+  2. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_router.rb:22:in `each'
+  3. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_router.rb:22:in `block in run'
+  4. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/compilation/item_rep_repo.rb:25:in `each'
+  5. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/compilation/item_rep_repo.rb:25:in `each'
+  6. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_router.rb:20:in `run'
+  7. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/services/item_rep_builder.rb:19:in `run'
+  8. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/compilation/compiler.rb:140:in `build_reps'
+  9. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/compilation/compiler.rb:88:in `run_all'
+  10. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/base/entities/site.rb:24:in `compile'
+  11. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/commands/compile.rb:375:in `block in run'
+  12. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/commands/compile.rb:417:in `run_listeners_while'
+  13. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/commands/compile.rb:374:in `run'
+  14. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/command_runner.rb:12:in `block in call'
+  15. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
+  16. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
+  17. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/command_runner.rb:11:in `call'
+  18. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib/cri/command_dsl.rb:223:in `block in runner'
+  19. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  20. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  21. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/commands/nanoc.rb:37:in `block in define'
+  22. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  23. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  24. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli.rb:53:in `block in run'
+  25. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
+  26. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
+  27. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib/nanoc/cli.rb:51:in `run'
+  28. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/bin/nanoc:9:in `<top (required)>'
+  29. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/bin/nanoc:23:in `load'
+
+===== VERSION INFORMATION:
+
+Nanoc 4.1.2 © 2007-2016 Denis Defreyne.
+Running ruby 2.3.0 (2015-12-25) on x86_64-darwin13 with RubyGems 2.5.1.
+
+===== SYSTEM INFORMATION:
+
+Darwin jonnys-computer.local 13.4.0 Darwin Kernel Version 13.4.0: Wed Mar 18 16:20:14 PDT 2015; root:xnu-2422.115.14~1/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  actionmailer 3.2.1
+  actionpack 3.2.1
+  activemodel 3.2.1
+  activerecord 3.2.1
+  activeresource 3.2.1
+  activesupport 3.2.1
+  adsf 1.2.0
+  arel 3.0.2
+  bigdecimal 1.2.8
+  builder 3.0.0
+  bundler 1.0.22
+  colored 1.2
+  cri 2.6.1
+  erubis 2.7.0
+  hike 1.2.1
+  i18n 0.6.0
+  io-console 0.4.5
+  journey 1.0.2
+  json 1.6.5, 1.8.3
+  kramdown 1.5.0
+  mail 2.4.1
+  mime-types 1.17.2
+  multi_json 1.1.0
+  nanoc 3.7.5, 4.1.2
+  polyglot 0.3.3
+  psych 2.0.17
+  rack 1.4.1
+  rack-cache 1.1
+  rack-ssl 1.3.2
+  rack-test 0.6.1
+  rails 3.2.1
+  railties 3.2.1
+  rake 0.9.2
+  rdoc 3.12, 4.2.1
+  sprockets 2.1.2
+  thor 0.14.6
+  tilt 1.3.3
+  treetop 1.4.10
+  tzinfo 0.3.31
+
+===== LOAD PATHS:
+
+  0. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/colored-1.2/lib
+  1. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/cri-2.6.1/lib
+  2. /Users/jonny/.rvm/gems/ruby-1.9.2-p290/gems/nanoc-4.1.2/lib
+  3. /usr/local/lib/ruby/site_ruby/2.3.0
+  4. /usr/local/lib/ruby/site_ruby/2.3.0/x86_64-darwin13
+  5. /usr/local/lib/ruby/site_ruby
+  6. /usr/local/lib/ruby/vendor_ruby/2.3.0
+  7. /usr/local/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin13
+  8. /usr/local/lib/ruby/vendor_ruby
+  9. /usr/local/Cellar/ruby/2.3.0/lib/ruby/2.3.0
+  10. /usr/local/Cellar/ruby/2.3.0/lib/ruby/2.3.0/x86_64-darwin13
