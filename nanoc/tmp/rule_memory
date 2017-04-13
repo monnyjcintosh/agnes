@@ -1,4 +1,4 @@
-{:	data{[:item_repo:Nanoc::Identifier:
+{:	data{[:item_repo:Nanoc::Identifier:
 @type:	full:@stringI"/index.html:ET:default[[	:snapshot:rawT0[	;:preF0[	;;T0[:layoutI"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;:	postT0[	;:	lastTI"/index.html;T[;o;;;	;
 I"/stylesheet.css;T;[[	;;T0[	;;F0[	;;TI"/stylesheet.css;T[;o;;;	;
 I"/default.html;T[[:filter:erbI"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[;o;;;	;
@@ -12,4 +12,10 @@ I"/genphil/lecture1.pdf;T;[[	;;T0[	;;F0[	;;TI"/genphil/lecture1.pdf
 I"/genphil/lecture2.html;T;[[	;;T0[	;;F0[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"!/genphil/lecture2/index.html;T[;o;;;	;
 I"/genphil/lecture2.pdf;T;[[	;;T0[	;;F0[	;;TI"/genphil/lecture2.pdf;T[;o;;;	;
 I"/syllabuses/104.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"/syllabuses/104/index.html;T[;o;;;	;
-I"/syllabuses/103.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"/syllabuses/103/index.html;T:versioni
+I"/syllabuses/103.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"/syllabuses/103/index.html;T[;o;;;	;
+I"/syllabuses/125.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"/syllabuses/125/index.html;T[;o;;;	;
+I"/syllabuses/108.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"/syllabuses/108/index.html;T[;o;;;	;
+I"/syllabuses/gp_ht2016.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"%/syllabuses/gp_ht2016/index.html;T[;o;;;	;
+I"/syllabuses/HT2016_GP.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"%/syllabuses/HT2016_GP/index.html;T[;o;;;	;
+I"/syllabuses/HT2016_108.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"&/syllabuses/HT2016_108/index.html;T[;o;;;	;
+I"/syllabuses/HT2017_108.md;T;[[	;;T0[	;;F0[;;I"!s3jRyK92B9DrdMuJFubVGRDoPr8=;F[	;;T0[;I"/default.*;TI"!njH44IXmHxKt3g0D9qK+rBlirTE=;F[	;;T0[	;;TI"&/syllabuses/HT2017_108/index.html;T:versioni
